@@ -7,6 +7,8 @@ ROUTER.get('/', (req, res) => {
   res.render('layouts/main.hbs')
 })
 
-
+ROUTER.get('/leaderboard', (req, res) => {
+  res.render('drivers/index')
+})
 
 module.exports = ROUTER
