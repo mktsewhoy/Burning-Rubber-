@@ -2,7 +2,7 @@
 Group project (Adam, Matt, Luke, Devon)
 
 
-<b> Starting Ideas</b>
+<b> Starting Ideas</b><br>
 <b>MVP</b>
 
 Displays basic profile.
