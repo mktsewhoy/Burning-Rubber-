@@ -1,6 +1,11 @@
 <div>
-    {{#each driver}}
+    {{#each cars}}
     <div class="app">
+    <p><img src='images/{{image}}>'</p>
+    <p>Make: {{carMake}}</p>
+    <p>Model: {{carModel}}</p>
+    <p>Driver: {{driverName}}</p>
+    <p>Country: {{country}}</p>
         <a href="/">Home</a>
     </div>
     {{/each}}

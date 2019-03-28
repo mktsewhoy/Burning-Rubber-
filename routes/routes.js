@@ -8,7 +8,10 @@ ROUTER.get('/', (req, res) => {
 })
 
 ROUTER.get('/leaderboard', (req, res) => {
-  res.render('drivers/index')
+  //Change index.hbs to leaderboard.hbs
+  res.render('drivers/index', DRIVERDATA)
 })
+
+
 
 module.exports = ROUTER
