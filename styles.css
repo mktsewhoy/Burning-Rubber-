@@ -1,0 +1,36 @@
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+
+<i class="material-icons">
+flag
+</i>
+
+<i class="material-icons">
+outlined_flag
+</i>
