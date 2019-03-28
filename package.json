@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest --watchAll --noStackTrace",
+    "test": "jest --watchAgll --noStackTrace",
     "start": "node index",
     "debug": "nodemon --inspect index --ignore driverdata.json"
   },
