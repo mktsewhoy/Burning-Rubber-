@@ -5,35 +5,40 @@
             "car model": "AE86",
             "driver name": "Takumi",
             "country": "Japan",
-            "image": "x"
+            "image": "x",
+            "votes": 0
         },
         {
             "car make": "Mazda",
             "car model": "RX7",
             "driver name": "Keisuke",
             "country": "Japan",
-            "image": "x"
+            "image": "x",
+            "votes": 0
         },
         {
             "car make": "Nissan",
             "car model": "S13",
             "driver name": "Tana",
             "country": "New Zealand",
-            "image": "x"
+            "image": "x",
+            "votes": 0
         },
         {
             "car make": "Lexus",
             "car model": "LS",
             "driver name": "Johnny",
             "country": "USA",
-            "image": "x"
+            "image": "x",
+            "votes": 0
         },
         {
             "car make": "Nissan",
             "car model": "R32",
             "driver name": "Brian",
             "country": "USA",
-            "image": "x"
+            "image": "x",
+            "votes": 0
         }
     ] 
 }
