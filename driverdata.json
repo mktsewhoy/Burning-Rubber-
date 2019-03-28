@@ -6,7 +6,7 @@
             "carModel": "AE86",
             "driverName": "Takumi",
             "country": "Japan",
-            "image": "x",
+            "image": "ae86.jpg",
             "votes": 0
         },
         {   
@@ -15,7 +15,7 @@
             "carModel": "RX7",
             "driverName": "Keisuke",
             "country": "Japan",
-            "image": "x",
+            "image": "rx7.jpg",
             "votes": 0
         },
         {   
@@ -24,7 +24,7 @@
             "carModel": "S13",
             "driverName": "Tana",
             "country": "New Zealand",
-            "image": "x",
+            "image": "s13.jpg",
             "votes": 0
         },
         {   
@@ -33,7 +33,7 @@
             "carModel": "LS",
             "driverName": "Johnny",
             "country": "USA",
-            "image": "x",
+            "image": "lexus_ls.jpg",
             "votes": 0
         },
         {   
@@ -42,8 +42,8 @@
             "carModel": "R32",
             "driverName": "Brian",
             "country": "USA",
-            "image": "x",
+            "image": "r32.jpg",
             "votes": 0
         }
-    ] 
+    ]
 }
