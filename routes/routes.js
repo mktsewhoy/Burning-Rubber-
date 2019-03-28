@@ -4,11 +4,11 @@ const ROUTER = EXPRESS.Router()
 const DRIVERDATA = require('../driverdata.json')
 
 ROUTER.get('/', (req, res) => {
-  res.render('layouts/main.hbs')
+  res.render('drivers/index.hbs')
 })
 
 ROUTER.get('/leaderboard', (req, res) => {
-  res.render('drivers/index')
+  res.render('drivers/leaderboard.hbs')
 })
 
 module.exports = ROUTER
