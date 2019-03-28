@@ -6,3 +6,5 @@ const DRIVERDATA = require('../driverdata.json')
 ROUTER.get('/', (req, res) => {
   res.send('IT WORKS')
 })
+
+module.exports = ROUTER
