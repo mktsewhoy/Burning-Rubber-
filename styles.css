@@ -1,7 +1,5 @@
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
 body {
+    background-image: "/images/race-track-flag.jpg"
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
 }
@@ -25,7 +23,15 @@ h3 {
     font-weight: bold;
 }
 
+.app {
+    display: flex;
+    flex-direction: column;
+}
 
+.nav {
+    text-align: center;
+    color: black;
+}
 
 <i class="material-icons">
 flag
