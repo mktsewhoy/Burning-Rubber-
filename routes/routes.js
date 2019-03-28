@@ -4,7 +4,9 @@ const ROUTER = EXPRESS.Router()
 const DRIVERDATA = require('../driverdata.json')
 
 ROUTER.get('/', (req, res) => {
-  res.send('IT WORKS')
+  res.render('layouts/main.hbs')
 })
+
+
 
 module.exports = ROUTER
