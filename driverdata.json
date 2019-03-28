@@ -3,8 +3,8 @@
         {
             "car make": "Toyota",
             "car model": "AE86",
-            "driver name": Takumi,
-            "country": Japan,
+            "driver name": "Takumi",
+            "country": "Japan",
             "image": "x"
         },
         {
