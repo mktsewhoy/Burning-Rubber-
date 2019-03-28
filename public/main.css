@@ -6,21 +6,26 @@ body {
 
 p {
     font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h2 {
     font-size: 36px;
     font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h3 {
     font-size: 26px;
     font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 
 .app {
@@ -33,10 +38,6 @@ h3 {
     color: black;
 }
 
-<i class="material-icons">
-flag
-</i>
-
-<i class="material-icons">
-outlined_flag
-</i>
+material-icons md-128 {
+    font-size: 128px;
+}
