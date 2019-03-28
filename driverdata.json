@@ -1,41 +1,46 @@
 {
     "cars": [
         {
-            "car make": "Toyota",
-            "car model": "AE86",
-            "driver name": "Takumi",
+            "id": 1,
+            "carMake": "Toyota",
+            "carModel": "AE86",
+            "driverName": "Takumi",
             "country": "Japan",
             "image": "x",
             "votes": 0
         },
-        {
-            "car make": "Mazda",
-            "car model": "RX7",
-            "driver name": "Keisuke",
+        {   
+            "id": 2,
+            "carMake": "Mazda",
+            "carModel": "RX7",
+            "driverName": "Keisuke",
             "country": "Japan",
             "image": "x",
             "votes": 0
         },
-        {
-            "car make": "Nissan",
-            "car model": "S13",
-            "driver name": "Tana",
+        {   
+            "id": 3,
+            "carMake": "Nissan",
+            "carModel": "S13",
+            "driverName": "Tana",
             "country": "New Zealand",
             "image": "x",
             "votes": 0
         },
-        {
-            "car make": "Lexus",
-            "car model": "LS",
-            "driver name": "Johnny",
+        {   
+            "id": 4,
+            "carMake": "Lexus",
+            "carModel": "LS",
+            "driverName": "Johnny",
             "country": "USA",
             "image": "x",
             "votes": 0
         },
-        {
-            "car make": "Nissan",
-            "car model": "R32",
-            "driver name": "Brian",
+        {   
+            "id": 5,
+            "carMake": "Nissan",
+            "carModel": "R32",
+            "driverName": "Brian",
             "country": "USA",
             "image": "x",
             "votes": 0
