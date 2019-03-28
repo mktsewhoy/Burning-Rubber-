@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jest --watchAgll --noStackTrace",
+    "start": "node index",
+    "debug": "nodemon --inspect index --ignore driverdata.json"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/piwakawaka-2019/Burning-Rubber-/issues"
   },
-  "homepage": "https://github.com/piwakawaka-2019/Burning-Rubber-#readme"
+  "homepage": "https://github.com/piwakawaka-2019/Burning-Rubber-#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "jest": "^24.5.0",
+    "nodemon": "^1.17.2"
+  }
 }
