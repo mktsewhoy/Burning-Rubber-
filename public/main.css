@@ -6,21 +6,25 @@ body {
 
 p {
     font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 44px;
     font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h3 {
     font-size: 26px;
     font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .app {
@@ -28,15 +32,29 @@ h3 {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav {
     text-align: center;
     color: black;
 }
 
-<i class="material-icons">
-flag
-</i>
+.img-leaderboard {
+    border-color: white;
+    border-style: dotted;
+    border-width: 16px;
+    max-width: 512px;
+    max-height: 512px;
+    object-fit: cover;
+}
 
-<i class="material-icons">
-outlined_flag
-</i>
+.img-display {
+    max-width: 85%;
+    object-fit: cover;
+}
+
+.material-icons.md-128 {
+    font-size: 128px;
+}
