@@ -1,5 +1,5 @@
 body {
-    background-image: "/public/images/race-track-flag.jpg"
+    background-image: "/images/burnout_smoke.png";
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
 }
@@ -29,6 +29,7 @@ h3 {
 }
 
 .app {
+    background-image: "/images/burnout_smoke.png";
     display: flex;
     flex-direction: column;
 }
@@ -36,6 +37,10 @@ h3 {
 .nav {
     text-align: center;
     color: black;
+}
+
+.img-leaderboard {
+    
 }
 
 material-icons md-128 {
