@@ -1,0 +1,23 @@
+{
+  "name": "burning-rubber-",
+  "version": "1.0.0",
+  "description": "Group project (Adam, Matt, Luke, Devon)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piwakawaka-2019/Burning-Rubber-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piwakawaka-2019/Burning-Rubber-/issues"
+  },
+  "homepage": "https://github.com/piwakawaka-2019/Burning-Rubber-#readme"
+}
