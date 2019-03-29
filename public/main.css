@@ -1,22 +1,24 @@
 body {
-    background-image: "/images/burnout_smoke.png";
+    
+    background-image: url("/images/burnout_smoke.png");
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
 }
 
-p {
-    font-size: 14px;
-    font-family: 'Titillium Web', sans-serif;
-}
+a { text-decoration: none;}
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
 
 h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
     font-family: 'Titillium Web', sans-serif;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 44px;
     font-weight: bold;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -28,8 +30,12 @@ h3 {
 
 }
 
+p {
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .app {
-    background-image: "/images/burnout_smoke.png";
     display: flex;
     flex-direction: column;
 }
@@ -40,9 +46,11 @@ h3 {
 }
 
 .img-leaderboard {
-    
+    border-style: dotted;
+    border-color: black;
+    border-width: 6px;
 }
 
-material-icons md-128 {
+.material-icons.md-128 {
     font-size: 128px;
 }
