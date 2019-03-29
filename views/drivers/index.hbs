@@ -1,19 +1,21 @@
 <div class=container>
-    <h2><a href="/leaderboard">VIEW LEADERBOARD</a></h2>
+    <h3><a href="/leaderboard">VIEW LEADERBOARD</a></h3>
     <form method="post">
-    <button name="flag" value="green">
-        <font color=#00d000>
-            <i class="material-icons md-128">flag</i>
-        </font>
-    </button>
-    <img src="{{driver.image}}" height="200" width="200">
-    {{driver.driverName}}
-    {{driver.country}}
-    <button name="flag" value="red">
-        <font color=#d00000>
-            <i class="material-icons md-128">flag</i>
-        </font>
-    </button>
-    </br>
+        <button name="flag" value="green">
+            <font color=#00d000>
+                <i class="material-icons md-128">flag</i>
+            </font>
+        </button>
+        <img class=img-home src="{{driver.image}}">
+        <button name="flag" value="red">
+            <font color=#d00000>
+                <i class="material-icons md-128">flag</i>
+            </font>
+        </button>
+        <p>{{driver.carMake}} {{driver.carModel}}</p>
+        <p>{{driver.driverName}}</p>
+        <p>{{driver.country}}</p>
+
+        </br>
     </form>
 </div>
