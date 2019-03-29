@@ -5,7 +5,8 @@ const fs = require('fs')
 const DRIVERDATA = require('../driverdata.json')
 
 ROUTER.get('/', (req, res) => {
-  let selectedDriver = 0
+  let selectedDriver = Math.floor(Math.random() * DRIVERDATA.cars.length) 
+  console.log(selectedDriver)
   let viewData = {
     driver: DRIVERDATA.cars[selectedDriver]
   }
@@ -16,13 +17,15 @@ ROUTER.get('/leaderboard', (req, res) => {
   res.render('drivers/leaderboard.hbs')
 })
 
-ROUTER.post('/', (req, res) => {
+ROUTER.post('/:id', (req, res) => {
+  let driversID = req.params.id
   let buttonPush = req.body.flag
-  let selectedDriver = 0
-  let currentDriver = DRIVERDATA.cars[selectedDriver]
-  console.log(buttonPush)
+  let currentDriver = DRIVERDATA.cars.find(x => x.id == driversID)
+  // console.log(driversID)
+  // let currentDriver = DRIVERDATA.cars[selectedDriver]
+  // console.log(buttonPush)
 
-  console.log(currentDriver)
+  // console.log(currentDriver)
   if (buttonPush == 'green') {
     currentDriver.votes++ 
   } else if (buttonPush == 'red') {
@@ -33,8 +36,7 @@ ROUTER.post('/', (req, res) => {
   fs.writeFile('../driverdata.json', dataToWrite, 'utf8', (err) => {
     console.log(err)
   })
-  console.log(dataToWrite)
-  console.log(DRIVERDATA.cars[selectedDriver])
+  // console.log(dataToWrite)
   res.redirect('/')
 })
 
