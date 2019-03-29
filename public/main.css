@@ -45,10 +45,18 @@ p {
     color: black;
 }
 
-.img-leaderboard {
+.img-home {
     border-style: dotted;
     border-color: black;
     border-width: 6px;
+}
+
+.img-leaderboard {
+    max-width: 64px;
+}
+
+img {
+    object-fit: cover;
 }
 
 .material-icons.md-128 {
