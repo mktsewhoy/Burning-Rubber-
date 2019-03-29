@@ -14,6 +14,10 @@ a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:black }
 
 h1 {
+    border: 5px solid black;
+    border-radius: 15px;
+    max-width: 50%;
+    min-width: 400px;
     font-size: 72px;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -25,7 +29,7 @@ h2 {
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     font-family: 'Titillium Web', sans-serif;
 
@@ -46,20 +50,33 @@ p {
     color: black;
 }
 
+img {
+    object-fit: cover;
+}
+
 .img-home {
-    border-style: dotted;
+    /* border-style: dotted;
     border-color: black;
-    border-width: 6px;
+    border-width: 6px; */
+    max-width: 500px;
 }
 
 .img-leaderboard {
     max-width: 64px;
 }
 
-img {
-    object-fit: cover;
-}
-
 .material-icons.md-128 {
     font-size: 128px;
+}
+
+ol {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
 }
