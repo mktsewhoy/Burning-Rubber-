@@ -28,7 +28,18 @@ ROUTER.post('/', (req, res) => {
   } else if (buttonPush == 'red') {
     currentDriver.votes--
   }
-  fs
+
+  let dataToWrite = JSON.stringify(DRIVERDATA)
+  fs.writeFile('../driverdata.json', dataToWrite, 'utf8', (err) => {
+    console.log(err)
+  })
+  console.log(dataToWrite)
+  console.log(DRIVERDATA.cars[selectedDriver])
   res.redirect('/')
 })
+
+
+
+
+
 module.exports = ROUTER
