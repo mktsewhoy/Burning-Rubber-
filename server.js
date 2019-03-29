@@ -3,10 +3,6 @@ const hbs = require("express-handlebars")
 const SERVER = EXPRESS()
 const SERVERROUTE = require("./routes/routes")
 
-//added '/'
-SERVER.use('/', SERVERROUTE)
-
-
 
 //Middleware
 SERVER.engine('hbs', hbs({
@@ -16,5 +12,11 @@ SERVER.engine('hbs', hbs({
 SERVER.set('view engine', 'hbs')
 SERVER.use(EXPRESS.static('public'))
 SERVER.use(EXPRESS.urlencoded({extended: false}))
+
+
+//added '/'
+SERVER.use('/', SERVERROUTE)
+
+
 
 module.exports = SERVER

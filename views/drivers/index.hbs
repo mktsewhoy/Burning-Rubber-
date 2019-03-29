@@ -1,7 +1,19 @@
 <div class=container>
     <h2><a href="/leaderboard">VIEW LEADERBOARD</a></h2>
-    <font color=#00d000><i class="material-icons md-128">flag</i></font>
-    <img class="img-home" src='/images/{{image}}'>
-    <font color=#d00000><i class="material-icons md-128">flag</i></font>
+    <form method="post">
+    <button name="flag" value="green">
+        <font color=#00d000>
+            <i class="material-icons md-128">flag</i>
+        </font>
+    </button>
+    <img src="{{driver.image}}" height="200" width="200">
+    {{driver.driverName}}
+    {{driver.country}}
+    <button name="flag" value="red">
+        <font color=#d00000>
+            <i class="material-icons md-128">flag</i>
+        </font>
+    </button>
     </br>
+    </form>
 </div>
