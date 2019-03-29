@@ -16,7 +16,7 @@ a:hover, a:active { text-decoration: none; color:black }
 h1 {
     border: 5px solid black;
     border-radius: 15px;
-    max-width: 50%;
+    max-width: 750px;
     min-width: 400px;
     font-size: 72px;
     font-family: 'Titillium Web', sans-serif;
