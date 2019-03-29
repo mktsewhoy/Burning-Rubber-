@@ -1,5 +1,6 @@
 <div class=container>
     <h3><a href="/leaderboard">VIEW LEADERBOARD</a></h3>
+    <h4>Green flag, hot. Red flag, not.</h4>
     <form action="/{{driver.id}}" method="post">
         <button name="flag" value="green">
             <font color=#00d000>
@@ -15,6 +16,7 @@
         <p>{{driver.carMake}} {{driver.carModel}}</p>
         <p>{{driver.driverName}}</p>
         <p>{{driver.country}}</p>
+        <p>{{driver.votes}} votes</p>
 
         </br>
     </form>
