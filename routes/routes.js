@@ -1,5 +1,6 @@
 const EXPRESS = require('express')
 const ROUTER = EXPRESS.Router()
+const fs = require('fs')
 
 const DRIVERDATA = require('../driverdata.json')
 
@@ -16,8 +17,18 @@ ROUTER.get('/leaderboard', (req, res) => {
 })
 
 ROUTER.post('/', (req, res) => {
-  console.log('It works!!')
-  console.log(req.body)
+  let buttonPush = req.body.flag
+  let selectedDriver = 0
+  let currentDriver = DRIVERDATA.cars[selectedDriver]
+  console.log(buttonPush)
+
+  console.log(currentDriver)
+  if (buttonPush == 'green') {
+    currentDriver.votes++ 
+  } else if (buttonPush == 'red') {
+    currentDriver.votes--
+  }
+  fs
   res.redirect('/')
 })
 module.exports = ROUTER
